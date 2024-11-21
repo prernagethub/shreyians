@@ -1,0 +1,99 @@
+/* boiler code of css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+css
+/* ========================================= */
+
+h5 {
+  color: aquamarine;
+  font-size: 100px;
+  background-color: black;
+  height: 50%;
+}
+
+
+.color {
+  font-size: 100px;
+  color: beige;
+}
+
+.size {
+  font-weight: bold;
+}
+
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+
+  border: 5px solid greenyellow;
+  outline: 2px dotted black;
+  border-radius: 50%;
+  border-top-left-radius: 50px;
+  margin-left: 50%;
+
+
+
+}
+
+p {
+  text-align: center;
+  align-items: center;
+}
+
+
+h6 {
+  padding: 40px;
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+}
+
+
+#h {
+  color: brown;
+}
+
+
+h3 {
+  color: yellowgreen;
+  color: #e99494;
+  color: rgba(221, 110, 233);
+  color: rgba(221, 110, 233, 1);
+}
+
+
+/* gradient is the new color */
+
+body {
+  /* background: linear-gradient(to bottom right, greenyellow, red, blue); */
+  /* background: radial-gradient(yellow, orange, red); */
+  background-image: url(https://images.unsplash.com/photo-1729614499383-756f6e0e4d80?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3NHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: center;
+  background-attachment: fixed;
+}
+
+
+.bgimg {
+  background-image: url("https://plus.unsplash.com/premium_photo-1682091872078-46c5ed6a006d?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+/* padding: 10; (for all the direction)
+padding: 10px, 40px;(for top bottom right left)
+padding: 10px,40px,54px,34px; */

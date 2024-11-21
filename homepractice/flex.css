@@ -1,0 +1,29 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  .container {
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+  }

@@ -1,0 +1,77 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661683527108-e34a6e664acd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .navbar {
+    background-color: rgb(217, 211, 229);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 10%;
+  }
+
+
+  .combine {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  }
+
+  .left img {
+    width: 100%;
+    /* max-width: 600px;
+    height: auto; */
+    margin: 10% 20%;
+    /* text-align: center; */
+
+  }
+
+
+  .right {
+    /* margin: 330px */
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 10% 5%;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.733);
+  }
+
+
+  button {
+    /* margin-left: 500px;
+    height: 50px;
+    width: 120px; */
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border-color: transparent; */
+    color: aliceblue;
+    border: 2px solid white;
+  }

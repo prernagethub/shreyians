@@ -1,0 +1,66 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+  }
+
+
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(166, 116, 116), rgb(205, 205, 169));
+    font-family: montserrat;
+    color: white;
+  }
+
+  nav {
+    padding: 2%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    /* text-align: center; */
+    font-size: 30px;
+
+  }
+
+  nav>a {
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+    cursor: pointer;
+    color: aliceblue;
+
+  }
+
+  .content {
+    margin-top: 13%;
+    margin-left: 3%;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-weight: 900;
+  }
+
+  button {
+    margin-top: 70px;
+    padding: 15px 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 5px rgb(103, 103, 93);
+    cursor: pointer;
+  }

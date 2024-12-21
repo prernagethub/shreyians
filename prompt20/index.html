@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+    <!-- Homepage -->
+    <header id="hero">
+        <div class="container">
+            <h1>Welcome to My UX Portfolio</h1>
+            <!-- <p>Designing impactful user experiences, one project at a time.</p> -->
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </header>
+     <!-- About Page -->
+     <section id="about" class="section">
+      <div class="container">
+          <!-- <h2>About</h2> -->
+          <p>Hello! I'm <span>Max Zhdanov</span> passionate about creating intuitive and delightful user experiences. With skills in research, prototyping, and user testing, I turn complex problems into elegant solutions.</p>
+          <h3>Skills</h3>
+          <ul>
+              <li>User Research</li>
+              <li>Wireframing & Prototyping</li>
+              <li>Interaction Design</li>
+              <li>Usability Testing</li>
+              <li>HTML & CSS</li>
+          </ul>
+          <a href="resume.pdf" class="download-button">Download My Resume <i class="ri-arrow-down-line"></i></a>
+      </div>
+  </section>
+
+    <main>
+        <!-- Featured Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1731223834043-6f8fd8f87161?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"alt="Project 1">
+                        <h3>Travel Photograpy</h3>
+                        <p>A genre of photography that involves capturing the world around you while traveling.</p>
+                        <a href="case-study1.html" class="view-button">View Case Study</a>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1498982261566-1c28c9cf4c02?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                        <h3>Model Shoot</h3>
+                        <p>To capture high-quality images of the model showcasing clothing, products, or a particular style.</p>
+                        <a href="case-study2.html" class="view-button">View Case Study</a>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1734495912895-8e132ac15a49?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                        <h3>AnimalGrapy</h3>
+                        <p>Capturing animals in action, such as hunting, feeding, mating, playing, or interacting with other animals.</p>
+                        <a href="case-study2.html" class="view-button">View Case Study</a>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1734621629797-a7bc8a84de46?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                        <h3>Film</h3>
+                        <p>A detailed plan outlining each camera shot, including angles, movements, and character positioning, is used as a guide during the film shoot.</p>
+                        <a href="case-study2.html" class="view-button">View Case Study</a>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1734386011664-a17cc4ef6755?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                        <h3>Nature</h3>
+                        <p> photography of natural things such as landscapes, wildlife, and plants, beautiful, diverse, and powerful, and can be calming and inspiring to experience.</p>
+                        <a href="case-study2.html" class="view-button">View Case Study</a>
+                    </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1734200468947-1940e063c506?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                        <h3>Current Event</h3>
+                        <p> A summary or explanation of a significant news story or event that is happening currently in the world, often including details about who, what, when.</p>
+                        <a href="case-study2.html" class="view-button">View Case Study</a>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+   
+
+    <!-- Contact Form -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Form</h2>
+            <form action="submit-form.php" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+     <!-- Social Links -->
+     <section id="social" class="section">
+      <div class="container">
+          <h2>Connect With Us</h2>
+          <ul class="social-links">
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">GitHub</a></li>
+          </ul>
+      </div>
+  </section>
+
+    <footer>
+        <p>&copy; 2024 UX Designer Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

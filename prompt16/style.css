@@ -1,0 +1,166 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+  }
+
+
+  main {
+    background-color: rgb(197, 194, 194);
+    height: 100vh;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    padding: 3%;
+  }
+
+  .links {
+    /* border: 2px solid black; */
+    width: 20%;
+  }
+
+  .links a {
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .product_list {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+  }
+
+  .product_list h1 {
+    text-align: center;
+    padding: 2% 0 0 0;
+    letter-spacing: 8px;
+  }
+
+
+  .img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 4%;
+    padding: 1% 6%;
+    /* border: 3px solid red; */
+  }
+ 
+
+  .img1 div {
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.1s ease-in-out;
+     /* border: 2px solid rgb(214, 98, 98); */
+  }
+  
+
+  .img1 div:hover{
+    /* height: 110%; */
+    box-shadow: 3px 3px 30px black;
+    transform: scale(1.03);
+    /* width: 110%; */
+  }
+
+  .img2 div {
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.1s ease-in-out;
+     /* border: 2px solid red; */
+  }
+
+  .img2 div:hover{
+    /* height: 110%; */
+    box-shadow: 3px 3px 30px black;
+    transform: scale(1.03);
+    /* width: 110%; */
+  }
+
+  .img1 .ig1 {
+    background-image: url(b8d13377-d500-4008-ba02-db754ee0932b1720854949389-BRILLARE-100-Natural-Pure-Rosemary-Essential-Oil-for-Hair-Gr-6.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img1 .ig2 {
+    background-image:url(36307bfe-3828-4aba-aa70-2476d72a52ff1729068117721-DOT--KEY-Gloss-Boss-Vitamin-CE-Tinted-Lip-Balm-with-SPF-30-1-1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img1 .ig3 {
+    background-image:url(89d70576-f05b-4ec3-b974-b8c76e79a34f1733405727761-FoxTale-Vitamin-C--Niacinamide-Essentials-Brightening-SPF-50-1.webp) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img1 .ig4 {
+    background-image: url(ab17badb-dc3e-49b2-b56e-7dac6d62c3371724742252817-Pilgrim-Rosemary--Biotin-Anti-Hairfall-Shampoo-for-Reducing--1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 4%;
+    padding: 1% 6%;
+    /* border: 3px solid red; */
+  }
+
+  .img2 div {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .img2 .ig5 {
+    background-image: url(KS7zZJRM_78cbcb27327145909f57e02ad249c6db.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .img2 .ig6 {
+    background-image: url(1f507d6f-5c58-4e1b-821e-fc85f546e1151732768975056-FEELHIGH-24Pcs-Reusable-Long-Lasting-Artificial-Fake-Nail-Se-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .img2 .ig7 {
+    background-image: url(e706f1d9-ea24-4ca8-b36c-8ed8d7cc6a1a1706160518008-DOT--KEY-Barrier-Repair-Ceramide--Peptide-SPF50-Lip-Balm-wit-1.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  .img2 .ig8 {
+    background-image: url(b66d109d-6f06-4414-b7ee-f34e7c8e91fb1671441867756-DOT--KEY-10-Vitamin-C--E-Super-Bright-Face-Serum-with-5-Niac-2.webp);
+    background-position: top;
+    background-size: cover;
+  }
